@@ -9,14 +9,18 @@ public class GoodsApp {
 		goods.setName ("Nikon");
 		
 		//
-		//goods.prince = -1; 인경우 0으로 받게끔 Goods 클래스에서 설정
+		//goods.price = -1; 인경우 0으로 받게끔 Goods 클래스에서 설정
 		goods.setPrice (200000);
 		goods.setCountStock (50);
 		goods.setCountSold (30);
 		
 		System.out.println(Goods.count);
 		
-		System.out.println(goods.getName() + ":" + goods.getPrice() + ":" + goods.getCountStock() + ":" + goods.getCountSold());
+		System.out.println(
+				goods.getName() + ":" + 
+				goods.getPrice() + ":" + 
+				goods.getCountStock() + ":" +
+				goods.getCountSold());
 
 		Goods goods2 = new Goods();
 		

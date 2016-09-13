@@ -24,7 +24,7 @@ public class Goods {
 	public void setPrice(int price) {
 		//정보 보호
 		if( price < 0)	{
-			price =0;
+			price = 0;
 		}
 		this.price = price;
 	}
